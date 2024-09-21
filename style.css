@@ -21,3 +21,14 @@
 .number {
   font-family: vazir-digits;
 }
+
+body {
+  @apply bg-green-900 text-white
+}
+
+.nav-link {
+  @apply text-lg font-bold duration-300
+}
+.nav-link:hover{
+  @apply text-yellow-500
+}
