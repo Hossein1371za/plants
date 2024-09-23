@@ -25,6 +25,12 @@
 body {
   @apply bg-green-900 text-white
 }
+section{
+  @apply py-20 md:py-28
+}
+h1{
+  @apply text-3xl md:text-4xl xl:text-5xl font-bold
+}
 
 .nav-link {
   @apply text-lg font-bold duration-300

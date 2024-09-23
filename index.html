@@ -11,13 +11,14 @@
   </head>
   <body>
     <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
-      <nav class="container flex items-center justify-between h-16 sm:h-20 lg:flex-row-reverse">
+      <nav
+        class="container flex items-center justify-between h-16 sm:h-20 lg:flex-row-reverse">
         <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
           <i class="ri-menu-4-line" id="hamburger"></i>
         </div>
-        <h1 class="sm:text-2xl font-bold">گل های آپارتمانی</h1>
+        <h1>گل های آپارتمانی</h1>
         <div id="nav-menu"
-          class="absolute top-0 -left-[100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto ">
+          class="absolute top-0 -left-[100%] h-[100vh] lg:h-full w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto ">
           <ul class="flex flex-col items-center gap-8 lg:flex-row">
             <li><a href="#home" class="nav-link">خانه</a></li>
             <li><a href="#about" class="nav-link">درباره ما</a></li>
@@ -25,15 +26,62 @@
             <li><a href="#review" class="nav-link">بررسی</a></li>
           </ul>
           <div class="absolute bottom-0 right-10 opacity-90 lg:hidden">
-            <img class="w-32" src="./public/assets/img/leaf-1.png" alt />
+            <img class="w-32" src="/assets/img/leaf-1.png" alt />
           </div>
           <div class="absolute -top-5 -left-5 rotate-90 opacity-90 lg:hidden">
-            <img class="w-32" src="./public/assets/img/leaf-2.png" alt />
+            <img class="w-32" src="/assets/img/leaf-2.png" alt />
           </div>
         </div>
 
       </nav>
     </header>
+    <main>
+      <section id="home">
+        <div>
+          <div>
+            <div>
+              <h1><span class="text-yellow-500">گیاهان </span> نقش مهمی در
+                <br /><span class="text-yellow-500">سلامت و
+                  مثبت</span> نگه داشتن <br /> محیط ایفا میکنند.
+              </h1>
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+              </p>
+              <div>
+                <button>
+                  <span>نمایش</span>
+                  <i class="ri-leaf-line"></i>
+                </button>
+                <button>
+                  <span>بیشتر بدانید</span>
+                  <i class="ri-leaf-line"></i>
+                </button>
+              </div>
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،</p>
+              <div>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-line"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-linkedin-fill"></i>
+              </div>
+            </div>
+            <div>
+              <img src="/assets/img/home.png" alt=""/>
+              <div>
+                <i class="ri-leaf-line"></i>
+              </div>
+              <div>
+                <i class="ri-flower-line"></i>
+              </div>
+              <div>
+                <i class="ri-plant-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
