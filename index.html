@@ -35,52 +35,75 @@
 
       </nav>
     </header>
+
     <main>
-      <section id="home">
-        <div>
-          <div>
-            <div>
+      <section class="relative text-center lg:text-right" id="home">
+        <div class="container">
+          <div
+            class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+          <div
+            class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute left-0 bottom-0 "></div>
+          <div class="flex flex-col items-center gap-5 lg:flex-row">
+            <div class="w-full space-y-5 lg:w-1/2">
               <h1><span class="text-yellow-500">گیاهان </span> نقش مهمی در
                 <br /><span class="text-yellow-500">سلامت و
                   مثبت</span> نگه داشتن <br /> محیط ایفا میکنند.
               </h1>
-              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              <p class="text-slate-300">لورم ایپسوم متن ساختگی با تولید سادگی
+                نامفهوم از صنعت چاپ، و با
                 استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
                 در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
               </p>
-              <div>
-                <button>
+              <div
+                class="flex flex-col gap-2 sm:flex-row md:gap-4 lg-pt-5 xl:pt-10">
+                <button class="btn">
                   <span>نمایش</span>
                   <i class="ri-leaf-line"></i>
                 </button>
-                <button>
+                <button class="btn btn_outline">
                   <span>بیشتر بدانید</span>
                   <i class="ri-leaf-line"></i>
                 </button>
               </div>
-              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،</p>
-              <div>
-                <i class="ri-facebook-fill"></i>
-                <i class="ri-twitter-line"></i>
-                <i class="ri-instagram-line"></i>
-                <i class="ri-linkedin-fill"></i>
+              <p class="text-xs text-slate-300">
+                لورم ایپسوم متن ساختگی با تولید
+                سادگی نامفهوم از صنعت چاپ،
+              </p>
+              <div class="flex items-center gap-5 text-2xl lg:pt-10">
+                <i
+                  class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer">
+                </i>
+                <i
+                  class="ri-twitter-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer">
+                </i>
+                <i
+                  class="ri-instagram-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer">
+                </i>
+                <i
+                  class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer">
+                </i>
               </div>
             </div>
-            <div>
-              <img src="/assets/img/home.png" alt=""/>
-              <div>
-                <i class="ri-leaf-line"></i>
+            <div class="w-full relative lg:w-1/2">
+              <img src="/assets/img/home.png" alt />
+              <div
+                class="absolute -top-10 xl:top-5 left-0 opacity-30 animate-movingY">
+                <i class="ri-leaf-line text-6xl text-yellow-500"></i>
               </div>
-              <div>
-                <i class="ri-flower-line"></i>
+              <div
+                class="absolute bottom-0 xl:bottom-12 right-0 opacity-30 animate-rotate">
+                <i class="ri-flower-line text-6xl text-yellow-500"></i>
               </div>
-              <div>
-                <i class="ri-plant-line"></i>
+              <div
+                class="hidden absolute -top-10 xl:top-5 -right-5 opacity-30 lg:block animate-scaleUp">
+                <i class="ri-plant-line text-6xl text-yellow-500"></i>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      
     </main>
     <script type="module" src="/main.js"></script>
   </body>
