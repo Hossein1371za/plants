@@ -69,3 +69,7 @@ h3 {
 .btn_outline:hover {
   @apply bg-yellow-500
 }
+
+.popular-img:hover img{
+  @apply -top-8
+}
