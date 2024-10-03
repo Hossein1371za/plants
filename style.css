@@ -12,7 +12,9 @@
   src: url("./assets/vazirmatn-v33.003/misc/Farsi-Digits/fonts/ttf/Vazirmatn-FD-Black.ttf");
 }
 
-
+html{
+  @apply overflow-x-hidden scroll-smooth
+}
 * {
   font-family: vazir;
   direction: rtl;
