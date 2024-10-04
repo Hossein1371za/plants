@@ -54,7 +54,7 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-pagination',
       clickable:true,
     },
-    grabCursor:true,
+    grabCursor:true, 
     breakpoints:{
         640:{
             slidesPerView:1
@@ -67,3 +67,26 @@ const swiper = new Swiper('.swiper', {
         },
     }
   });
+// active scroll
+window.addEventListener("scroll",()=>{
+    const section = document.querySelectorAll("section")
+    const navLinks = document.querySelectorAll(".nav-lonk")
+
+    let current = "home"
+
+    section.forEach(section=>{
+        const sectionTop = section.offsetTop
+
+        if(window.scrollY >= sectionTop - 60){
+            current= section.getAttribute("id")
+        }
+    })
+
+    navLink.forEach(item=>{
+        item.classList.remove("active")
+
+        if(item.href.includes(current)){
+            item.classList.add("active")
+        }
+    })
+})
